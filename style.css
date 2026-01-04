@@ -188,7 +188,7 @@ body {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(6.25rem, 10rem));
+  grid-template-columns: repeat(auto-fit, minmax(6.25rem, 8rem));
   gap: 1.25rem;
   margin-top: 1.25rem;
 }
@@ -748,7 +748,7 @@ h3 {
 }
 
 
-@media (max-width: 56.25rem) {
+@media (max-width: 55.25rem) {
   .content {
     padding-top: 10.5rem;
   }
@@ -806,11 +806,12 @@ h3 {
   }
 
   .top-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    order: 1;
-    gap: 0.4rem;
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
   }
 
   .brand {
@@ -826,16 +827,16 @@ h3 {
   }
 
   .brand-text h2 {
-    font-size: 2rem;
+    font-size: 1.78rem;
   }
 
   .brand-text span {
-    font-size: 1.25rem;
-    letter-spacing: 0.57rem;
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
   }
 
   .top-nav li {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.2;
   }
 
@@ -846,6 +847,7 @@ h3 {
     list-style: none;
     margin: 0;
     padding: 0;
+    flex-wrap: nowrap;
   }
 
   .top-nav a {
@@ -858,7 +860,7 @@ h3 {
 
   .top-nav .btn {
     padding: 0.25rem 0.5rem;
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
 
