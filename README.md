@@ -16,7 +16,7 @@ Este repositório contém o meu site-portfolio (Designer & Dev). Mostro trabalho
    - PowerShell: `python -m http.server 8000`
    - Acesse: `http://localhost:8000`
 2. Coloque o PDF do currículo em:
-   `./assets/site/CurriculoLattesMariaLeticiaDeOliveiraCardoso.pdf`
+   `./assets/site/seuarquivo.pdf`
 
 ## Configuração necessária
 - EmailJS:
